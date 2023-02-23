@@ -38,7 +38,7 @@ export default function profile() {
                   <h3 className="text-xl font-semibold tracking-wide">
                     TK AL-IKLASH
                   </h3>
-                  <time className="text-xs tracking-wide uppercase text-gray-400">
+                  <time className="text-xs tracking-wide uppercase hover:text-gray-600 text-gray-400">
                     2008-2011
                   </time>
                   <p className="mt-3">
