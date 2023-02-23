@@ -6,21 +6,18 @@ import Footer from "@/components/foooter";
 
 export default function Project() {
   return (
-    <div className="">
+    <div>
       <Layout title="Project"></Layout>
       <Navbar />
-      <div className="">
-<div className="h-screen flex justify-center">
-    <div className="flex items-center">
-    <div className="flex gap-10 ">
-        <Card/>
-        <Card/>
-        <Card/>
-        
-    </div>
-    
-    </div>
-</div>
+
+      <div className="h-full flex justify-center">
+        <div className="flex items-center">
+          <div className="max-lg:flex-col flex py-10 gap-10 ">
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

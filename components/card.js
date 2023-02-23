@@ -9,7 +9,7 @@ const Card = () => {
         alt="Gambar"
         width={300}
         height={200}
-        className="w-full rounded hover:scale-105 duration-300"
+        className="w-full rounded hover:scale-105 duration-300 aspect-video object-cover"
       />
       <div className="px-6 py-4 ">
         <div className="font-bold text-xl mb-8 ">Denah rumah</div>
