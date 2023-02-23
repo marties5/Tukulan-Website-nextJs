@@ -13,17 +13,17 @@ const Contact = () => {
 		<form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label className="block">
 				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="ciboox.id_name" className="block text-gray-600 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 h-10 p-4 focus:ring-violet-400 dark:bg-gray-800" />
+				<input type="text" placeholder="ciboox.id_name" className="block text-gray-600 w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 h-10 p-4 focus:ring-violet-400 dark:bg-gray-500" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="ciboox_id.com" className="block text-gray-600  w-full rounded-md shadow-sm focus:ring h-10 p-4  focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
+				<input type="email" placeholder="ciboox_id.com" className="block text-gray-600  w-full rounded-md shadow-sm focus:ring h-10 p-4  focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-500" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
 				<textarea rows="3" className="block w-full rounded-md ring-slate-50  p-4   focus:ring focus:ring-opacity-75 focus:ring-violet-400 bg-slate-50 text-gray-400"></textarea>
 			</label>
-			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-400 text-gray-900 focus:ring-violet-400 hover:ring-violet-400">Submit</button>
+			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-gray-500 bg-violet-400 text-gray-900 focus:ring-violet-400 hover:ring-violet-400">Submit</button>
 		</form>
 	</div>
 </section>

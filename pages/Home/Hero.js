@@ -4,13 +4,11 @@ import mypict from "/public/image/image_face.png";
 import Link from "next/link";
 import Reaction from "@/components/reaction";
 
-
 export default function Hero() {
   return (
     <div>
       <div className="bg-slate-50 flex max-lg:mt-40 justify-around max-lg:flex-col-reverse  h-screen py-10 items-center">
         <div className="max-lg:mt-10 max-md:flex  max-md:flex-wrap px-8 max-md:justify-center  ">
-  
           <h1 className="text-3xl mb-10  font-bold">
             My name is
             <Link href={"/profile"}>
@@ -31,16 +29,14 @@ export default function Hero() {
             </button>
           </Link>
         </div>
-      
+
         <Image
           src={mypict}
           width="auto"
           height="400"
           className="ml-16   justify-center "
         ></Image>
-    
       </div>
-         
 
       <Reaction />
     </div>

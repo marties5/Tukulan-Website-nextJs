@@ -10,7 +10,7 @@ export default function Reaction(){
         <div className="w-full flex justify-center bg-slate-50 ">
             <div className="max-w-screen-lg">
 
-                 <section className="p-4 lg:p-8 bg-stone-400 flex justify-center dark:text-gray-100">
+                 <section className="p-4 lg:p-8 bg-stone-400 flex justify-center dark:text-gray-500">
                            <div className="container mx-auto space-y-12">
                            <div className="flex flex-col hover:duration-300  duration-500 lg:hover:scale-105 
         md:hover:scale-95  overflow-hidden rounded-md shadow-sm lg:flex-row">
