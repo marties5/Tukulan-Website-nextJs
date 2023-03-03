@@ -12,16 +12,16 @@ const Footer = () => {
       </ul>
       <div className="flex flex-col justify-center pt-6 ">
         <div className="flex justify-center space-x-4">
-          <Link rel="noopener noreferrer" href="#" title="LinkInd" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-violet-400 dark:text-gray-900">
+          <Link rel="noopener noreferrer" href="#" title="LinkInd" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-lime-600 dark:text-gray-900">
          <GrLinkedin/>
           </Link>
-          <Link rel="noopener noreferrer" href="#" title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-violet-400 dark:text-gray-900">
+          <Link rel="noopener noreferrer" href="#" title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-lime-600 dark:text-gray-900">
            <GrGithub/>
           </Link>
-          <Link rel="noopener noreferrer" href="#" title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-violet-400 dark:text-gray-900">
+          <Link rel="noopener noreferrer" href="#" title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-lime-600 dark:text-gray-900">
             <FiTwitter/>
           </Link>
-          <Link rel="noopener noreferrer" href="#" title="WhatsApp" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-violet-400 dark:text-gray-900">
+          <Link rel="noopener noreferrer" href="#" title="WhatsApp" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-lime-600 dark:text-gray-900">
            <BsWhatsapp/>
           </Link>
         </div>

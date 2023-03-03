@@ -34,7 +34,7 @@ export default function Hero() {
           src={mypict}
           width="auto"
           height="400"
-          className="ml-16   justify-center "
+          className="ml-16  justify-center "
         ></Image>
       </div>
 
