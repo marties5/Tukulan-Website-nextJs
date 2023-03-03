@@ -8,7 +8,7 @@ import ProductCard from "@/pages/[slug]";
 export default function Hero() {
   return (
     <div>
-      <div className="bg-slate-50 flex max-lg:mt-40 justify-around max-lg:flex-col-reverse  h-screen py-10 items-center">
+      <div className="bg-slate-50 flex h-full max-lg:mt-40 justify-around max-lg:flex-col-reverse py-10 items-center">
         <div className="max-lg:mt-10 max-md:flex max-w-[500px] max-md:flex-wrap px-8 max-md:justify-center  ">
         
           <h1 className="text-6xl mb-10 text-lime-600 font-bold">
