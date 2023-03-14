@@ -5,6 +5,7 @@ import Link from "next/link";
 import Reaction from "@/components/reaction";
 import ProductCard from "@/pages/[slug]";
 
+
 export default function Hero() {
   return (
     <div>
@@ -37,6 +38,7 @@ export default function Hero() {
           className="ml-16  justify-center "
         ></Image>
       </div>
+     
 
       <Reaction />
     </div>

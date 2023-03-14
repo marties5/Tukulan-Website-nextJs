@@ -5,6 +5,7 @@ import Navbar from "/components/navbar";
 import Footer from "/components/foooter";
 import Product from "../[slug]";
 import Food from "@/components/Food";
+import Card from "@/components/Card"
 
 const Produks = () => {
   return (
@@ -13,7 +14,7 @@ const Produks = () => {
       <Navbar />
       <div className="h-full ">
         <Product />
-        <Food />
+        <Card />
       </div>
       <Footer />
     </div>

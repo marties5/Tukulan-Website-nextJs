@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { data, kategori } from "../data/data";
 
+
 const Food = () => {
   const [foods, setFoods] = useState(data);
 

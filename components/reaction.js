@@ -3,6 +3,7 @@ import Image from "next/image";
 import img_1 from "/public/image/flow-pink.png";
 import img_2 from "/public/image/flow-sun.png";
 import img_3 from "/public/image/flow-white.png";
+import Card from "@/components/Card"
 
 export default function Reaction() {
   return (
@@ -75,12 +76,13 @@ export default function Reaction() {
                  Bunga putih 
                 </h3>
                 <p className="my-6 max-md:hidden ">
-                  bunga ini cantik kayak ayangku ahahahahaahhah 100x
+                  bunga ini cantik  ahahahahaahhah 100x
                 </p>
               </div>
             </div>
           </div>
         </section>
+  <Card/>
       </div>
     </div>
   );
