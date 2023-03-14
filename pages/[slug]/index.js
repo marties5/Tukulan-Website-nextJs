@@ -46,7 +46,7 @@ function Detail() {
 
   const handleCheckout = () => {
     // implement logic for checkout
-    alert( "kamu membeli ");
+    alert( "kamu membeli "+food.name+" sejumlah "+qty);
     localStorage.removeItem("cartItems");
     router.push("/produk");
   };
