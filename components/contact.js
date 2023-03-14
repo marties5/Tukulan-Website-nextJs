@@ -1,5 +1,3 @@
-import react from "react";
-import {HiOutlineLocationMarker } from "react-icons/hi";
 
 const Contact = () => {
     return(
@@ -24,8 +22,11 @@ const Contact = () => {
 				<textarea rows="3" className="block w-full rounded-md   p-4   focus:ring ring-1 ring-lime-600  bg-slate-50 text-gray-800"></textarea>
 			</label>
 			<button type="button" className="self-center px-8 py-3 text-lg rounded  bg-lime-600 hover:bg-slate-50 border-2 border-green-600 hover:text-lime-600 max-md:w-full text-slate-50 focus:divide-none">Submit</button>
+
+
 		</form>
 	</div>
+
 </section>
     )
 }
