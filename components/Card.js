@@ -1,6 +1,5 @@
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
-
+ 
 export default function Card(){
   const [data, setData] = useState([]);
 
@@ -8,7 +7,7 @@ export default function Card(){
     async function getData() {
       try {
         const response = await fetch(
-          "https://api.jsonbin.io/v3/b/640fc23ec0e7653a05876f7e"
+          "https://api.jsonbin.io/v3/b/64115f0cace6f33a22ef0a2b"
         );
         const data = await response.json();
         setData(data.record);
@@ -29,7 +28,7 @@ export default function Card(){
             alt={item.name}
             className="w-full h-[400px] object-cover rounded-t-lg"
           />
-          <div className="flex text-slate-600 justify-between px-2 py-4">
+          <div className="flex text-slate-600 max-h-10   justify-between px-2 py-4">
             <p className="font-bold text-lg ">{item.name}</p>
             <p>
               <span className=" text-green-800 p-1 rounded-full">

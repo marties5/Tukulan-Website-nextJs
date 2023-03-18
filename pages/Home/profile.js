@@ -11,7 +11,7 @@ export default function profile() {
       <Layout title="profile"></Layout>
       <Navbar />
       <section className="bg-slate-50 text-gray-100">
-        <div className="flex justify-center items-center mt-8">
+        <div className="flex justify-center items-center pt-20">
           <Image
             src={mypict}
             width="auto"

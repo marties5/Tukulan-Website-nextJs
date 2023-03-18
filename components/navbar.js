@@ -5,8 +5,8 @@ import mylogo from "../public/image/logo.png";
 
 export default function Header() {
   return (
-    <header className="bg-slate-50  h-16 flex justify-center md:flex items-center md:justify-between">
-      <div className="justify-between ">
+    <header className="bg-slate-50 fixed w-screen z-10 backdrop-blur-sm opacity-90 h-16 flex justify-center md:flex items-center md:justify-between">
+      <div className="justify-between opacity-100 ">
         <Link href={"/"}>
           <Image
             src={mylogo}

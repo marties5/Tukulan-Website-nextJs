@@ -9,10 +9,10 @@ import Card from "@/components/Card"
 
 const Produks = () => {
   return (
-    <div className="h-full">
+    <div className="h-full ">
       <Layout title="produk"></Layout>
       <Navbar />
-      <div className="h-full ">
+      <div className="h-full mx-28 ">
         <Product />
         <Card />
       </div>
